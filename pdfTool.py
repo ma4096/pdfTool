@@ -1,11 +1,9 @@
 from PyPDF4 import PdfFileReader, PdfFileWriter
 
-# Overwrite one page from basePdf with newPdf and safe it as pdf
-# Made for inserting single scanned pages into generated pdf for PP1, 5.2022
-
 header = """PDF Tool based on PyPDF4
 """
-safePath = "C:/Users/derba/Documents/Jade_HS/PP1/test.pdf"
+safePath = ""
+basePdfPath = ""
 
 def overwriteAt(writer):
     print("Overwrite mode selected")
