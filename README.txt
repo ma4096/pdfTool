@@ -7,6 +7,11 @@ Their Github: https://github.com/claird/PyPDF4
 
 I run it in Python 3.9, it should be compatible with all Versions, which are compatible with PyPdf4.
 
+Current features:
+	- overwrite some pages in a pdf with another pdf
+	- append one pdf to another
+	- extract pages from a pdf
+
 Common errors/tips:
 	When copying paths of files from Windows Explorer, they come with "[path]", the " have to be removed.
 	Paths can be either absolute or relative to the Python File.
